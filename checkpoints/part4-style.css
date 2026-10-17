@@ -1,0 +1,133 @@
+
+/* Type selector */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f4f6f8;
+}
+
+/* Grouping selector */
+header,
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* ID selector */
+#about {
+    border-top: 4px solid #1d4ed8;
+}
+
+/* Class selector */
+.card {
+    background-color: white;
+    padding: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/* Styling header */
+header {
+    background-color: #12345a;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Descendant selector */
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling navigation links */
+nav a {
+    color: #12345a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pseudo-class selector */
+nav a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+/* Sections as cards */
+main section {
+    background-color: white;
+    padding: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dbeafe;
+}
+
+/* Responsive image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Form styling */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #12345a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Pseudo-class selector */
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Footer styling */
+footer {
+    font-size: 14px;
+    color: #666666;
+}
